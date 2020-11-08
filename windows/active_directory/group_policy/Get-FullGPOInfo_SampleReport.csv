@@ -1,0 +1,2021 @@
+#TYPE Selected.System.Management.Automation.PSCustomObject,,,,,,,,,,,,,,,,,,,,,,,
+SOM,SOMPath,SortOrder,Depth,Name,Description,GUID,GPOPath,LinkEnabled,Enforced,Precedence,BlockInheritance,LinksTO,CreationTime,ModificationTime,GpoStatus,Owner,ComputerSettings,ComputerVersion,UserSettings,UserVersion,WMIFilter,DACL,SACL
+test,"DC=test,DC=com",0,0,Default Domain Policy,,31b2f340-016d-11d2-945f-00c04fb984f9,"cn={31b2f340-016d-11d2-945f-00c04fb984f9},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,1,FALSE,test.com,5/23/2018 8:47:15 AM,5/23/2018 9:53:33 AM,AllSettingsEnabled,TEST\Domain Admins,Modified,DSVersion: 3;SysVolVersion: 3,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Chennai,"OU=Chennai,DC=test,DC=com",1,1,ChennaiWallpaperChangeGPO,Hey This is test description ,090b3fd7-f9a5-4f03-9a9b-021dd0f45c8a,"cn={090b3fd7-f9a5-4f03-9a9b-021dd0f45c8a},cn=policies,cn=system,DC=test,DC=com",TRUE,TRUE,1,FALSE,test.com/Chennai,5/30/2018 2:47:14 AM,5/30/2018 2:47:14 AM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Chennai,"OU=Chennai,DC=test,DC=com",1,1,FInanceGPO,,8e5fba39-356a-4b98-9e6a-0fb7ea0edf9e,"cn={8e5fba39-356a-4b98-9e6a-0fb7ea0edf9e},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,2,FALSE,System.Object[],5/29/2018 11:11:20 PM,5/29/2018 11:11:20 PM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Domain Controllers,"OU=Domain Controllers,DC=test,DC=com",2,1,Default Domain Controllers Policy,,6ac1786c-016f-11d2-945f-00c04fb984f9,"cn={6ac1786c-016f-11d2-945f-00c04fb984f9},cn=policies,cn=system,DC=test,DC=com",FALSE,FALSE,1,FALSE,test.com/Domain Controllers,5/23/2018 8:47:15 AM,5/23/2018 8:47:15 AM,AllSettingsEnabled,TEST\Domain Admins,Modified,DSVersion: 1;SysVolVersion: 1,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, Self, WriteProperty, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Finance,"OU=Finance,DC=test,DC=com",3,1,FInanceGPO,,8e5fba39-356a-4b98-9e6a-0fb7ea0edf9e,"cn={8e5fba39-356a-4b98-9e6a-0fb7ea0edf9e},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,1,FALSE,System.Object[],5/29/2018 11:11:20 PM,5/29/2018 11:11:20 PM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+__________Finance1,"OU=Finance1,OU=Finance,DC=test,DC=com",4,2,Finance1GPO,,1a1a109d-16d4-409a-a87f-b9c77673047f,"cn={1a1a109d-16d4-409a-a87f-b9c77673047f},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,1,FALSE,test.com/Finance/Finance1,5/29/2018 11:12:28 PM,06-01-2018 02:25,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : None
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ReadProperty, GenericExecute
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+__________Finance1,"OU=Finance1,OU=Finance,DC=test,DC=com",4,2,New Group Policy Object,,40b0ebcc-1fa4-4199-b093-8597c38a60e4,"cn={40b0ebcc-1fa4-4199-b093-8597c38a60e4},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,2,FALSE,test.com/Finance/Finance1,5/31/2018 11:49:40 AM,5/31/2018 11:50:57 AM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_______________Finance2,"OU=Finance2,OU=Finance1,OU=Finance,DC=test,DC=com",5,3,Finance2GPO,,a454361f-e751-4ff5-809e-1e7318a9b1e4,"cn={a454361f-e751-4ff5-809e-1e7318a9b1e4},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,1,FALSE,test.com/Finance/Finance1/Finance2,5/29/2018 11:12:35 PM,5/29/2018 11:12:35 PM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Sales,"OU=Sales,DC=test,DC=com",6,1,Test1,,0896518d-bd7c-4cdc-955c-df81b1f26854,"cn={0896518d-bd7c-4cdc-955c-df81b1f26854},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,1,TRUE,test.com/Sales,5/23/2018 10:12:51 AM,5/28/2018 10:28:30 AM,AllSettingsEnabled,TEST\Domain Admins,Modified,DSVersion: 4;SysVolVersion: 4,Modified,DSVersion: 8;SysVolVersion: 8,"OLD OS
+","
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : None
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : groupOfUniqueNames
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 0310a911-93a3-4e21-a7a3-55d85ab2c48b
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : inetOrgPerson
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 4828cc14-1437-45bc-9b07-ad6f015e5f28
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : MSMQ-Custom-Recipient
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 876d6817-35cc-436c-acea-5ef7174dd9be
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : msSFU-30-Net-Id
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : e263192c-2a02-48df-9792-94f2328781a0
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-PKI-Private-Key-Recovery-Agent
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 1562a632-44b9-4a7e-a2d3-e426c96a3acc
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Az-Operation
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 860abe37-9a9b-4fa4-b3d2-b8ace5df9ec5
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Managed-Service-Account
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : ce206244-5827-4a86-ba1c-1c0c386c1b64
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Az-Admin-Manager
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : cfee1051-5f28-4bae-a863-5d0cc18a8ed1
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-App-Data
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 9e67d761-e327-4d55-bc95-682f875e2f8e
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-net-ieee-80211-GroupPolicy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 1cb81863-b822-4379-9ea2-5ff7bdc6386d
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-net-ieee-8023-GroupPolicy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 99a03a6a-ab19-4446-9350-0cb878ed2d9b
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : account
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 2628a46a-a6ad-4ae0-b854-2b12d9fe6f9e
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Password-Settings-Container
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 5b06b06a-4cf3-44c0-bd16-43bc10a987da
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : NisMap
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 7672666c-02c1-4f33-9ecf-f649c1dd9b7c
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : document
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 39bad96d-c2d6-4baf-88ab-7e4207600117
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Az-Task
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 1ed3a473-9b1b-418a-bfa0-3a37b95a5306
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : documentSeries
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 7a2be07c-302f-4b96-bc90-0795d66885f8
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : NisNetgroup
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 72efbf84-6e7b-4a5c-a8db-8a75a7cad254
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : msSFU-30-Mail-Aliases
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : d6710785-86ff-44b7-85b5-f1f8689522ce
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-ieee-80211-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 7b9a2d92-b7eb-4382-9772-c3e0f9baaf94
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : msSFU-30-Network-User
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : e15334a3-0bf0-4427-b672-11f5d84acc92
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DFSR-GlobalSettings
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 7b35dbad-b3ec-486a-aad4-2fec9d6ea6f6
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-Imaging-PSPs
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : a0ed2ac1-970c-4777-848e-ec63a0ec44fc
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : IpNetwork
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : d95836c3-143e-43fb-992a-b057f1ecadf9
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-Print-ConnectionPolicy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : a16f33c7-7fd6-4828-9364-435138fda08d
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : ms-DS-Az-Role
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 8213eac9-9d55-44dc-925c-e9a52b927644
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : msSFU-30-Domain-Info
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 36297dce-656b-4423-ab65-dabb2770819e
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : msSFU-30-NIS-Map-Config
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : faf733d0-f8eb-4dcf-8d75-f1753af6a50b
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : IpProtocol
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 9c2dcbd2-fbf0-4dc7-ace0-8356dcd0f013
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : IpService
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 2517fadf-fa97-48ad-9de6-79ac5721f864
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Deny
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ReadProperty, WriteProperty, DeleteTree, Delete, GenericExecute
+InheritanceType         : None
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ReadProperty, GenericExecute
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : room
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 7860e5d2-c8b0-4cbb-bd45-d9455beb9206
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : NisObject
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : 904f8a93-4954-4c5f-b1e1-53c097a31e13
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : rFC822LocalPart
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : b93e3a78-cbae-485e-a07b-5ef4ae505686
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : OncRpc
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild
+InheritanceType         : None
+ObjectType              : cadd1e5e-fefc-4f3f-b5a9-70e994204303
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : None
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : TEST\reject_me
+IsInherited             : False
+InheritanceFlags        : None
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"
+_____Sales,"OU=Sales,DC=test,DC=com",6,1,SalesGPO,,e103b0da-a89f-4d1f-9098-7cabcb3370e7,"cn={e103b0da-a89f-4d1f-9098-7cabcb3370e7},cn=policies,cn=system,DC=test,DC=com",TRUE,FALSE,2,TRUE,test.com/Sales,5/29/2018 11:40:12 AM,5/29/2018 11:40:12 AM,AllSettingsEnabled,TEST\Domain Admins,NeverModified,DSVersion: 0;SysVolVersion: 0,Modified,DSVersion: 0;SysVolVersion: 0,,"
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : Descendents
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : CREATOR OWNER
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : InheritOnly
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : GenericRead
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\SYSTEM
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Domain Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : All
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : CreateChild, DeleteChild, Self, WriteProperty, DeleteTree, Delete, GenericRead, WriteDacl, WriteOwner
+InheritanceType         : All
+ObjectType              : 00000000-0000-0000-0000-000000000000
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : None
+AccessControlType       : Allow
+IdentityReference       : TEST\Enterprise Admins
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+objectTypeName          : Apply-Group-Policy
+inheritedObjectTypeName : 
+ActiveDirectoryRights   : ExtendedRight
+InheritanceType         : All
+ObjectType              : edacfd8f-ffb3-11d1-b41d-00a0c968f939
+InheritedObjectType     : 00000000-0000-0000-0000-000000000000
+ObjectFlags             : ObjectAceTypePresent
+AccessControlType       : Allow
+IdentityReference       : NT AUTHORITY\Authenticated Users
+IsInherited             : False
+InheritanceFlags        : ContainerInherit
+PropagationFlags        : None
+
+
+
+","
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty, WriteDacl
+Inheritance Flags       : ContainerInherit
+Object Flags            : InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : 00000000-0000-0000-0000-000000000000
+Inherited ObjectType    : f30e3bc2-9ff0-11d1-b603-0000f80367c1
+Inheritance Type        : All
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbe-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+objectTypeName          : 
+inheritedObjectTypeName : 
+Is Inherited            : True
+Audit Flags             : 
+ActiveDirectory Rights  : WriteProperty
+Inheritance Flags       : ContainerInherit
+Object Flags            : ObjectAceTypePresent, InheritedObjectAceTypePresent
+Propogation Flags       : 
+Object Type             : f30e3bbf-9ff0-11d1-b603-0000f80367c1
+Inherited ObjectType    : bf967aa5-0de6-11d0-a285-00aa003049e2
+Inheritance Type        : Descendents
+Identity Reference      : Everyone
+Access Control Type     : 
+
+
+
+"

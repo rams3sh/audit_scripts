@@ -1,0 +1,15 @@
+#TYPE Selected.System.Management.Automation.PSCustomObject
+"CanonicalName","CN","Created","createTimeStamp","Deleted","Description","DisplayName","DistinguishedName","dSCorePropagationData","instanceType","isDeleted","LastKnownParent","Modified","modifyTimeStamp","msWMI-Author","msWMI-ChangeDate","msWMI-CreationDate","msWMI-ID","msWMI-Name","msWMI-Parm2","Name","ObjectCategory","ObjectClass","ObjectGUID","ProtectedFromAccidentalDeletion","sDRightsEffective","showInAdvancedViewOnly","uSNChanged","uSNCreated","whenChanged","whenCreated","WriteDebugStream","WriteErrorStream","WriteInformationStream","WriteVerboseStream","WriteWarningStream","Owner"
+"test.com/System/WMIPolicy/SOM/{39E17546-7A70-4377-B177-E5F91E13E0BA}","{39E17546-7A70-4377-B177-E5F91E13E0BA}","5/28/2018 10:28:10 AM","5/28/2018 10:28:10 AM",,,,"CN={39E17546-7A70-4377-B177-E5F91E13E0BA},CN=SOM,CN=WMIPolicy,CN=System,DC=test,DC=com","
+Friday, June 01, 2018 11:10:19 AM
+Sunday, December 31, 1600 4:00:00 PM
+
+
+","4",,,"6/1/2018 11:10:18 AM","6/1/2018 11:10:18 AM","Administrator@test.com","20180528172810.477000-000","20180528172810.477000-000","{39E17546-7A70-4377-B177-E5F91E13E0BA}","OLD OS","1;3;10;63;WQL;root\CIMv2;SELECT Version FROM Win32_OperatingSystem WHERE Version < ?6?
+;","{39E17546-7A70-4377-B177-E5F91E13E0BA}","CN=ms-WMI-Som,CN=Schema,CN=Configuration,DC=test,DC=com","msWMI-Som","47605de6-ea7e-4810-8bdc-bb7cc8620284","False","15","True","24720","16493","6/1/2018 11:10:18 AM","5/28/2018 10:28:10 AM","","","","","","TEST\Administrator"
+"test.com/System/WMIPolicy/SOM/{2647563D-BFEC-43F5-A7BB-D95ADD095A01}","{2647563D-BFEC-43F5-A7BB-D95ADD095A01}","6/1/2018 11:02:09 AM","6/1/2018 11:02:09 AM",,,,"CN={2647563D-BFEC-43F5-A7BB-D95ADD095A01},CN=SOM,CN=WMIPolicy,CN=System,DC=test,DC=com","
+Sunday, December 31, 1600 4:00:00 PM
+
+
+","4",,,"6/1/2018 11:02:09 AM","6/1/2018 11:02:09 AM","Administrator@TEST.COM","20180601180209.019000-000","20180601180209.019000-000","{2647563D-BFEC-43F5-A7BB-D95ADD095A01}","NEW OS","1;3;10;63;WQL;root\CIMv2;SELECT Version FROM Win32_OperatingSystem WHERE Version > ?6?
+;","{2647563D-BFEC-43F5-A7BB-D95ADD095A01}","CN=ms-WMI-Som,CN=Schema,CN=Configuration,DC=test,DC=com","msWMI-Som","71ec6b1b-1350-4ba8-828e-6f0fc2076833","False","15","True","24717","24717","6/1/2018 11:02:09 AM","6/1/2018 11:02:09 AM","","","","","","TEST\Administrator"
