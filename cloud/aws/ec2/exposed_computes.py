@@ -279,10 +279,10 @@ if __name__ == "__main__":
                 for eni in get_enis(profile=profile, region=region):
                     logger.debug("ENIs found for profile {} region {}".format(profile, region))
                     try:
-                        if eni.get("Groups"): # NAT Gateway doesnt have security groups
+                        if eni.get("Groups"): # NAT Gateway doesnt have security groups and is of no interest to us
                             target_eni_id = eni["NetworkInterfaceId"]
                             target_eni_description = eni["Description"]
-                            target_public_ip = eni["Association"]["PublicIp"]
+                            target_public_ip = eni["Association"]["PublicIp"] # May give KeyError Exception, if instance does not have public ip
                             target_public_dns = eni["Association"]["PublicDnsName"]
                             target_ip_owner_id = eni["Association"]["IpOwnerId"]
                             for group in eni.get("Groups"):
