@@ -31,3 +31,15 @@ select DISTINCT ServiceName, ServiceNamespace from access_advisor_report where S
 EXCEPT
 select DISTINCT ServiceNamespace from access_advisor_report where LastAuthenticated not NULL) 
 ```
+### List of users with permissions 
+```sqlite3
+select DISTINCT Account, AccountType,Arn, max(LastAuthenticated) as RecentActivity from access_advisor_report where EntityType="User" and ServiceName not NULL GROUP by Arn;
+```
+### List of users with unused service permissions
+```sqlite3
+select Account, AccountType, Arn, EntityType, group_concat(ServiceNamespace, ", ") as UnusedServicePermissions from access_advisor_report where EntityType="User" and ServiceName not NULL and LastAuthenticated is NULL group by Arn;
+```
+### List of users with unused service permissions
+```sqlite3
+select Account, AccountType, Arn, EntityType, group_concat(ServiceNamespace, ", ") as UnusedServicePermissions from access_advisor_report where EntityType="Role" and ServiceName not NULL and LastAuthenticated is NULL group by Arn;
+```
