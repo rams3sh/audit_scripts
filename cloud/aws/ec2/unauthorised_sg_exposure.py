@@ -10,6 +10,9 @@ import os
 import argparse
 import csv
 
+# Script Explanation
+# Link: https://kroki.io/mermaid/svg/eNqNkk1uwjAQhfecYi4AB-iiFVB-AmlI-VFVIRZOGEgkyxPZTkUVevc6TgIOKipZTt587814jpJlCaxfO2C-_naFcS5T_Q0TSXkGnjhKVGoH3e4znJd4QKnOMCj6gnSCEm7kLz8Vpi0fFl5459eqCCUe0hP4qdKNZmU162KMOk5YxBFc0UhomaKqteuK94mlj1sJ6AybradUjk-wUeyIQAcQJLoqYRL3kFVMbpg72ziwjaNtQGDbqurQVscmZ_rFNDYZp1cXv9gIluuEZKoMN8wjnsbghbXSvypHtjCufBz6pLhtmtj6tPggyfdtSzvqbDtBDYxzYFqzODG-5p0olzGqKvfMqr3CU1eJJrsA5FGN9BzkvFlWQAI4sX3EOBOxeeQLGfCUkZmxZ-7iQGB099x9B_zWgEdldy6xzJG7K8ua6VUPyu3_A99YeOBOUG43uHkHSZpi4vWoc6cpcNItLjfSSlQ3P5QnuGYI2xkykperDh3T979Njfohw4VFhS62NF-a09VJKo7lgiWWuF3HiH4Bf9cz_w
+
 def __json_serial(obj):
     if isinstance(obj, (date,datetime)):
         return obj.isoformat()
