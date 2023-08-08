@@ -43,3 +43,48 @@ select Account, AccountType, Arn, EntityType, group_concat(ServiceNamespace, ", 
 ```sqlite3
 select Account, AccountType, Arn, EntityType, group_concat(ServiceNamespace, ", ") as UnusedServicePermissions from access_advisor_report where EntityType="Role" and ServiceName not NULL and LastAuthenticated is NULL group by Arn;
 ```
+### List of users, roles along with total service permissions , used service permissions and unused service permissions
+```sqlite3
+WITH total_service_permissions as (
+select Arn, EntityType, group_concat(ServiceNamespace, ", ") as TotalServicePermissions 
+from access_advisor_report group by Arn
+),
+used_service_permissions as (
+select Arn, EntityType, group_concat(ServiceNamespace, ", ") as UsedServicePermissions 
+from access_advisor_report where LastAuthenticated is not NULL group by Arn
+),
+ unused_service_permissions as (
+select Arn, EntityType, group_concat(ServiceNamespace, ", ") as UnusedServicePermissions 
+from access_advisor_report where LastAuthenticated is NULL group by Arn
+)
+
+SELECT 
+    COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
+    COALESCE(t.EntityType, u.EntityType, un.EntityType) AS EntityType,
+    COALESCE(TotalServicePermissions, '') AS TotalServicePermissions,
+    COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
+    COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
+FROM total_service_permissions t
+LEFT JOIN used_service_permissions u ON t.Arn = u.Arn AND t.EntityType = u.EntityType
+LEFT JOIN unused_service_permissions un ON t.Arn = un.Arn AND t.EntityType = un.EntityType
+UNION
+SELECT 
+    COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
+    COALESCE(t.EntityType, u.EntityType, un.EntityType) AS EntityType,
+    COALESCE(TotalServicePermissions, '') AS TotalServicePermissions,
+    COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
+    COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
+FROM used_service_permissions u
+LEFT JOIN total_service_permissions t ON u.Arn = t.Arn AND u.EntityType = t.EntityType
+LEFT JOIN unused_service_permissions un ON u.Arn = un.Arn AND u.EntityType = un.EntityType
+UNION
+SELECT 
+    COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
+    COALESCE(t.EntityType, u.EntityType, un.EntityType) AS EntityType,
+    COALESCE(TotalServicePermissions, '') AS TotalServicePermissions,
+    COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
+    COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
+FROM unused_service_permissions un
+LEFT JOIN total_service_permissions t ON un.Arn = t.Arn AND un.EntityType = t.EntityType
+LEFT JOIN used_service_permissions u ON un.Arn = u.Arn AND un.EntityType = u.EntityType;
+```
