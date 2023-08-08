@@ -65,8 +65,8 @@ SELECT
     COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
     COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
 FROM total_service_permissions t
-LEFT JOIN used_service_permissions u ON t.Arn = u.Arn AND t.EntityType = u.EntityType
-LEFT JOIN unused_service_permissions un ON t.Arn = un.Arn AND t.EntityType = un.EntityType
+LEFT JOIN used_service_permissions u ON t.Arn = u.Arn
+LEFT JOIN unused_service_permissions un ON t.Arn = un.Arn
 UNION
 SELECT 
     COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
@@ -75,8 +75,8 @@ SELECT
     COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
     COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
 FROM used_service_permissions u
-LEFT JOIN total_service_permissions t ON u.Arn = t.Arn AND u.EntityType = t.EntityType
-LEFT JOIN unused_service_permissions un ON u.Arn = un.Arn AND u.EntityType = un.EntityType
+LEFT JOIN total_service_permissions t ON u.Arn = t.Arn
+LEFT JOIN unused_service_permissions un ON u.Arn = un.Arn
 UNION
 SELECT 
     COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
@@ -85,6 +85,6 @@ SELECT
     COALESCE(UsedServicePermissions, '') AS UsedServicePermissions,
     COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
 FROM unused_service_permissions un
-LEFT JOIN total_service_permissions t ON un.Arn = t.Arn AND un.EntityType = t.EntityType
-LEFT JOIN used_service_permissions u ON un.Arn = u.Arn AND un.EntityType = u.EntityType;
+LEFT JOIN total_service_permissions t ON un.Arn = t.Arn
+LEFT JOIN used_service_permissions u ON un.Arn = u.Arn;
 ```
