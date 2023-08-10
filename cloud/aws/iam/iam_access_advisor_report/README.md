@@ -58,7 +58,11 @@ select Arn, EntityType, group_concat(ServiceNamespace, ", ") as UnusedServicePer
 from access_advisor_report where LastAuthenticated is NULL group by Arn
 )
 
-SELECT 
+select distinct Arn, EntityType, TotalServicePermissions, UsedServicePermissions, UnusedServicePermissions, 
+	IIF( TotalServicePermissions='',0,(LENGTH(TotalServicePermissions) - LENGTH(REPLACE(TotalServicePermissions, ',', '')))+1) as TotalServicePermissionsCount, 
+	IIF( UsedServicePermissions='',0,(LENGTH(UsedServicePermissions) - LENGTH(REPLACE(UsedServicePermissions, ',', '')))+1) as UsedServicePermissionsCount, 
+	IIF( UnusedServicePermissions='',0,(LENGTH(UnusedServicePermissions) - LENGTH(REPLACE(UnusedServicePermissions, ',', '')))+1) as UnusedServicePermissionsCount
+	from (SELECT 
     COALESCE(t.Arn, u.Arn, un.Arn) AS Arn,
     COALESCE(t.EntityType, u.EntityType, un.EntityType) AS EntityType,
     COALESCE(TotalServicePermissions, '') AS TotalServicePermissions,
@@ -86,5 +90,5 @@ SELECT
     COALESCE(UnusedServicePermissions, '') AS UnusedServicePermissions
 FROM unused_service_permissions un
 LEFT JOIN total_service_permissions t ON un.Arn = t.Arn
-LEFT JOIN used_service_permissions u ON un.Arn = u.Arn;
+LEFT JOIN used_service_permissions u ON un.Arn = u.Arn)
 ```
